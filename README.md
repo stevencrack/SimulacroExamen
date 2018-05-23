@@ -18,4 +18,4 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 ```
 
-Para luego poder usar plt
+Para luego poder usar `plt`
