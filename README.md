@@ -8,3 +8,14 @@ Simulacro de examen final
 3. Edite cada uno de los archivos con sus respuestas `.py`.
 4. En File->New->Terminal puede abrir una terminal para probar el codigo.
 5. En la misma terminal utilice git para subir el codigo con las respuestas.
+
+# Nota
+Si van a usar matplotlib dentro de un programa deben escribir
+
+```
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+```
+
+Para luego poder usar plt
